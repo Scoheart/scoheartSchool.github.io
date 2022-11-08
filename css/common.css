@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.page {
+    background-color: #B2BFC3;
+}
+
+header {
+    
+    width: 100%;
+    
+    height: 150px;
+    /* background-color: #b2b6b6; */
+}
+
+.shortcut {
+    height: 50%;
+    background-color: #BDCBD2;
+}
+
+nav {
+    height: 50%;
+    background-color: #BDCBD2;
+}
+
+.body {
+    
+    height: 1200px;
+    /* background-color: aquamarine; */
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.container .left {
+    width: 200px;
+    /* background-color: #dfe5e9; */
+
+}
+.container .mid {
+    width: 100%;
+    /* background-color: #dfe5e9; */
+
+}
+
+.hot-items {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    /* background-color: #dfe5e9; */
+
+}
+
+.hot-items .img-box {
+    height: 100%;
+    
+}
+
+.hot-items .img-box img {
+    height: 100%;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.recommend-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    border-radius: 20px;
+    background-color: #D4DDE1;
+}
+
+.recommend-items .card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1; 
+    max-width: 350px;
+    min-width: 200px;
+    height: 150px;
+    margin: 10px 0 18px 18px;
+    padding: 11px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    /* box-shadow: 0 5px 202px rgb(0, 0, 0); */
+    background-color: #EAEEF1;
+    transition: 0.5s;
+}
+
+.recommend-items .card:hover {
+    background-color: #FFF;
+    /* border-color: #B2BFC3; */
+    transform: rotateZ(1deg);
+    /* transform: rotate3d(1deg,1deg,0); */
+    
+
+    box-shadow: 0 15px 30px 20px #b2bfc3;
+}
+
+.recommend-items .card .items-link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: inline-block;
+    /* background-color: white; */
+    display: flex;
+}
+
+.recommend-items .card .img-box {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* background-color: red; */
+}
+
+
+ .recommend-items .card .img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    max-width: 200px;
+    /* transition: 0.5s; */
+
+}
+
+.recommend-items .card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    color: black;
+}
+
+
+
+.container .right {
+    width: 200px;
+    /* background-color: #dfe5e9; */
+
+}
+
+.right aside {
+    /* display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    width: 70px;
+    height: 300px;
+    background-color: #D4DDE1;
+    border-radius: 20px; */
+}
+
+.right aside div{
+    width: 100%;
+   height: 100%;
+}
+
+footer {
+    height: 100px;
+    background-color: bisque;
+}
